@@ -1,9 +1,9 @@
 FROM quay.io/justcontainers/base
 
-ARG version="1403"
+ARG version="1404"
 LABEL maintainer="github@aram.nubmail.ca"
 
-ADD "https://terraria.org/system/dedicated_servers/archives/000/000/037/original/terraria-server-${version}.zip" /tmp/terraria.zip
+ADD "https://terraria.org/system/dedicated_servers/archives/000/000/038/original/terraria-server-${version}.zip" /tmp/terraria.zip
 RUN \
  echo "**** install terraria ****" && \
  apt-get update && \
